@@ -6,4 +6,4 @@ RUN apt update -y \
         && apt-get install wget
 ADD entrypoint.sh /entrypoint.sh
 RUN chmod +x /entrypoint.sh
-CMD /entrypoint.sh
+CMD ./entrypoint.sh
